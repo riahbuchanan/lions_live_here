@@ -1,0 +1,566 @@
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+    overflow-x: hidden;
+    background-color: #000000;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: none;
+  
+}
+
+.background
+{
+  z-index: 1;
+  width: 4500px;
+}
+
+.middleground
+{
+  z-index: 500;
+  width: 5021px;
+ 
+}
+
+#lions
+{
+  position: fixed;
+  display: inline;
+  border: none;
+    z-index: 14;
+
+}
+
+#nolions
+{
+  position: fixed;
+  display: inline;
+  border: none;
+  z-index: 1;
+
+}
+
+#whodiedlayer
+{
+  position: fixed;
+  display: inline;
+  border: none;
+    z-index: 2;
+}
+
+#whokilledlayer
+{
+  position: fixed;
+  display: inline;
+  border: none;
+    z-index: 6;
+  
+}
+
+#whomatedlayer
+{
+  position: fixed;
+  display: inline;
+  border: none;
+  z-index: 3;
+}
+
+#inbreedinglayer
+{
+  position: fixed;
+  display: inline;
+  border: none;
+  z-index: 4;
+}
+
+
+
+
+
+.foreground
+{
+  z-index: 1000;
+  width: 6000px;
+
+}
+
+.nav 
+{
+   margin-left: 40px;
+
+}
+button
+{
+ 
+  border: none;
+  margin-left: 3px;
+  position: fixed;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#showlions 
+{
+  height: 37px;
+  width: 213px; 
+
+}
+
+#showlionsACTIVE
+{
+  height: 37px;
+  width: 213px; 
+
+}
+
+
+#whodied
+{
+  margin-left: 220px; 
+  height: 37px;
+  width: 147px; 
+
+}
+
+#whodiedACTIVE
+{
+  margin-left: 220px; 
+  height: 37px;
+  width: 147px; 
+
+}
+
+#whokilled
+{
+  margin-left: 371px; 
+  height: 37px;
+  width: 194px; 
+
+}
+
+#whokilledACTIVE
+{
+  margin-left: 371px; 
+  height: 37px;
+  width: 194px; 
+
+}
+
+#whomated
+{
+  margin-left: 569px; 
+  height: 37px;
+  width: 158px; 
+
+}
+
+#whomatedACTIVE
+{
+  margin-left: 569px; 
+  height: 37px;
+  width: 158px; 
+}
+
+#inbreeding
+{
+  margin-left: 729px; 
+  height: 37px;
+  width: 240px; 
+
+}
+
+#inbreedingACTIVE
+{
+  margin-left: 729px; 
+  height: 37px;
+  width: 240px; 
+}
+
+
+
+
+
+#p22_walkingpath1
+{
+
+position: relative;
+
+z-index: 10;
+top: 491px;
+left: 988px;
+
+}
+
+#p22_walkingpath1b
+{
+
+position: relative;
+z-index: 11;
+top: 472px;
+left: 1589px;
+
+}
+
+#p22_walkingpath2
+{
+position: relative;
+z-index: 12;
+top: 452px;
+left: 1736px;
+
+}
+
+#p22_walkingpath2b
+{
+position: relative;
+z-index: 13;
+top: 415px;
+left: 2744px;
+
+}
+
+#p22_walkingpath3
+{
+position: relative;
+z-index: 14;
+top: 356px;
+left: 2891px;
+}
+
+
+#p22head
+{
+  position: fixed;
+  
+  border: none;
+  z-index: 30;
+    left: 880px;
+  top: 347px;
+
+}
+
+#p33head
+{
+  position: absolute;
+  
+  border: none;
+  z-index: 30;
+    left: 1255px;
+  top: 488px;
+
+}
+
+
+#p22body
+{
+  position: absolute;
+  
+  border: none;
+  z-index: 30;
+    left: 3200px;
+  top: 347px;
+
+}
+
+
+#p22body:hover
+{
+  position: absolute;
+  background-image: ;
+  border: none;
+  z-index: 30;
+    left: 3200px;
+  top: 347px;
+
+}
+
+
+
+#triangle33
+{
+  border: none;
+   position: absolute;
+display: inline;
+  width: 69px;
+  height: 49px;
+  background: none;
+  z-index: 15;
+    left: 1301px;
+  top: 607px;
+ 
+}
+
+
+
+#triangle
+{
+  border: none;
+   position: fixed;
+
+  width: 69px;
+  height: 49px;
+  background: none;
+  z-index: 15;
+    left: 915px;
+  top: 463px;
+ 
+}
+
+#p22mange
+{
+  position: absolute;
+  
+  border: none;
+  z-index: 35;
+    left: 3500px;
+  top: 362px;
+
+}
+
+
+.tooltip
+{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3333FF;
+}
+    
+    
+
+
+a 
+{
+
+text-decoration: none;
+ font-family: 'Open Sans', sans-serif;
+ color: 2B6AF9;
+ 
+
+}
+
+
+#crossing
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 2490px;
+  top: 520px;
+  text-align: left;
+  line-height: 50%;
+   padding: 2px;
+}
+
+#mailing
+{
+  z-index: 37;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 3500px;
+  top: 600px;
+  text-align: left;
+  line-height: 80%;
+}
+
+
+#barnowl
+{
+position: relative;
+z-index: 20;
+top: 48px;
+left: 2840px;
+}
+
+#wufoo-m197av2a1jspmyh
+
+{
+  background-color: white;
+  margin: 50px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#deer
+{
+  position: absolute;
+  border: none;
+  background: transparent;
+  z-index: 30;
+    left: 3650px;
+  top: 400px;
+
+}
+
+
+#eatdeer
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 3790px;
+  top: 472px;
+  text-align: left;
+  line-height: 50%;
+}
+
+#orange
+{
+  position: absolute;
+  
+  border: none;
+  background: transparent;
+  z-index: 40;
+    left: 3095px;
+  top: 590px;
+
+}
+
+#manners
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 2775px;
+  top: 640px;
+  text-align: left;
+  line-height: 50%;
+}
+
+#poster
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 3000px;
+  top: 655px;
+  text-align: left;
+  line-height: 50%;
+}
+
+
+
+#citylionpic
+{
+  position: absolute;
+  border: none;
+  background: transparent;
+  z-index: 40;
+    left: 4100px;
+  top: 575px;
+
+}
+
+#citylion
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: grey;
+  position: relative;
+  left: 3700px;
+  top: 700px;
+  text-align: left;
+  line-height: 50%;
+  padding: 2px;
+}
+
+#fourlions
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: grey;
+  position: relative;
+  left: 3800px;
+  top: 500px;
+  text-align: left;
+  line-height: 50%;
+  padding: 2px;
+}
+
+#deadends
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 2500px;
+  top: 700px;
+  text-align: left;
+  line-height: 50%;
+  padding: 2px;
+}
+
+#someday
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: grey;
+  position: relative;
+  left: 4000px;
+  top: 630px;
+  text-align: left;
+  line-height: 50%;
+  padding: 2px;
+}
+
+#p33link
+{
+  z-index: 36;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-style: italic; 
+  background: transparent;
+  color: #2B6AF9;
+  position: relative;
+  left: 510px;
+  top: 675px;
+  text-align: left;
+  line-height: 50%;
+  padding: 2px;
+}
+
+
+
+
